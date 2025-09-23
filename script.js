@@ -49,12 +49,11 @@ document.getElementById('resume-btn').addEventListener('click', function() {
 // Projects Data
 const projects = [
   {
-   title: "Portfolio",
-description:
-  "Created a responsive personal portfolio website highlighting projects, skills, and achievements.",
-detailedDescription:
-  "This project showcases my professional journey through a responsive personal portfolio website. It includes an About section, project highlights, skillset representation, and contact form. Built with HTML, CSS, and JavaScript, ensuring clean design and smooth user experience.",
-
+    title: "Portfolio",
+    description:
+      "Created a responsive personal portfolio website highlighting projects, skills, and achievements.",
+    detailedDescription:
+      "This project showcases my professional journey through a responsive personal portfolio website. It includes an About section, project highlights, skillset representation, and contact form. Built with HTML, CSS, and JavaScript, ensuring clean design and smooth user experience.",
 
     category: "software",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -65,25 +64,26 @@ detailedDescription:
   },
 
   {
-    title: "College-Conference-Website",
+    title: "College Conference Website",
     description:
-      "Developed a fully responsive e-commerce platform with product filtering and cart functionality.",
+      "Designed and developed a responsive website for managing college conferences and events.",
     detailedDescription:
-      "This project involved creating a complete e-commerce solution with user authentication, product catalog, search functionality, shopping cart, and checkout process. Built with HTML, CSS, and JavaScript for the frontend, and used localStorage for cart persistence.",
+      "This project involved building a dynamic platform to showcase event details, schedules, and speaker information. Features included user-friendly navigation, responsive design for accessibility across devices, and interactive sections for registrations and announcements. Built with HTML, CSS, and JavaScript.",
 
     category: "software",
     tags: ["Mongo Db", "Express Js", "React Js", "Node Js"],
     image:
-      "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+,
     githubLink: "https://github.com/Chandan8757/College-conference-website",
     liveDemo: "https://chandankumar-ecommerce.netlify.app",
   },
   {
     title: "Ticket Booking Application",
-description:
-  "Developed a ticket booking system with seat selection, booking confirmation, and user-friendly interface.",
-detailedDescription:
-  "This project is a ticket booking web application that allows users to select seats, view availability, and confirm bookings. Built with HTML, CSS, and JavaScript, featuring dynamic UI updates and localStorage for booking persistence.",
+    description:
+      "Developed a ticket booking system with seat selection, booking confirmation, and user-friendly interface.",
+    detailedDescription:
+      "This project is a ticket booking web application that allows users to select seats, view availability, and confirm bookings. Built with HTML, CSS, and JavaScript, featuring dynamic UI updates and localStorage for booking persistence.",
 
     category: "software",
     tags: ["React Js"],
