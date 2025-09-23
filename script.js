@@ -49,11 +49,28 @@ document.getElementById('resume-btn').addEventListener('click', function() {
 // Projects Data
 const projects = [
   {
+   title: "Portfolio",
+description:
+  "Created a responsive personal portfolio website highlighting projects, skills, and achievements.",
+detailedDescription:
+  "This project showcases my professional journey through a responsive personal portfolio website. It includes an About section, project highlights, skillset representation, and contact form. Built with HTML, CSS, and JavaScript, ensuring clean design and smooth user experience.",
+
+
+    category: "software",
+    tags: ["HTML", "CSS", "JavaScript"],
+    image:
+      "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    githubLink: "https://github.com/Chandan8757/Portfolio",
+    liveDemo: "https://portfolio-phi-amber-34.vercel.app/",
+  },
+
+  {
     title: "College-Conference-Website",
     description:
       "Developed a fully responsive e-commerce platform with product filtering and cart functionality.",
     detailedDescription:
       "This project involved creating a complete e-commerce solution with user authentication, product catalog, search functionality, shopping cart, and checkout process. Built with HTML, CSS, and JavaScript for the frontend, and used localStorage for cart persistence.",
+
     category: "software",
     tags: ["Mongo Db", "Express Js", "React Js", "Node Js"],
     image:
@@ -63,10 +80,11 @@ const projects = [
   },
   {
     title: "Ticket Booking Application",
-    description:
-      "Created an Interactive Tic Tac Toe game with JavaScript win logic.",
-    detailedDescription:
-      "Built an interactive Tic Tac Toe game in JavaScript, featuring dynamic DOM updates, win-condition validation, and a reset option for seamless replayability.",
+description:
+  "Developed a ticket booking system with seat selection, booking confirmation, and user-friendly interface.",
+detailedDescription:
+  "This project is a ticket booking web application that allows users to select seats, view availability, and confirm bookings. Built with HTML, CSS, and JavaScript, featuring dynamic UI updates and localStorage for booking persistence.",
+
     category: "software",
     tags: ["React Js"],
     image:
