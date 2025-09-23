@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Portfolio | Chandan Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">CK</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Chandan Kumar</span></h1>
+                <h2>Computer Science Engineering Student</h2>
+                <p>Passionate about developing innovative software solutions and optimizing systems for efficiency and scalability.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Engineering Student">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="IMG-20240819-WA0000.jpg" alt="Chandan Kumar">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I’m a final-year Computer Science student at Poornima College of Engineering, passionate about Web Development and Software Development. I love turning complex problems into elegant, user-friendly solutions and building innovative applications that create real impact. With a strong foundation in programming and a drive for continuous learning, I’m always excited to explore new technologies and push the boundaries of what’s possible.</p>
+                    
+                    <h3>Education</h3>
+                    <div class="education">
+                        <div class="edu-item">
+                            <h4>Poornima College Of Engineering</h4>
+                            <p>B Tech in Computer Science</p>
+                            <p class="date">2022 - Present</p>
+                            <p>Jaipur, Rajasthan</p>
+                        </div>
+                        <div class="edu-item">
+                            <h4>Motihari</h4>
+                            <p>Central Board Of Secondary Education</p>
+                            <p class="date">2020-2021</p>
+                            <p>Motihari, Bihar</p>
+                        </div>
+                    </div>
+                    
+                    <a href="https://drive.google.com/file/d/178fT5rsQmY8_YMIOkJ05-F9jgc0DBbBb/view?usp=drive_link" class="btn" id="resume-btn" download="Chandan_Kumar_Resume">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn" data-filter="software">Software</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Projects will be added here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Engineering Skills</h3>
+                    <div class="skill">
+                        <p>Object Oriented Programming</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Data Base Management System</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Operating System</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Data Structure And Algorithm</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill">
+                        <p>C++</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Python</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>JavaScript</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>React Js</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skill">
+                        <p>Teamwork</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Leadership</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Learning Agility</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Project Management</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> ck846747@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> (+91) 8757826768</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jaipur Rajasthan, 302022</p>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/chandan-kumar-a8225424b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Chandan8757" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/chandantiwari1364/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+               <form id="contact-form">
+  <input type="hidden" name="contact_number">
+  <div class="form-group">
+    <input type="text" name="user_name" placeholder="Your Name" value="ok" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="user_email" placeholder="Your Email" value="ok@ok.ok" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" value="ok" required></textarea>
+  </div>
+  <button type="submit" class="btn">Send Message</button>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Chandan Kumar. All rights reserved.</p>
+            <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
