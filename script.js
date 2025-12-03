@@ -92,6 +92,26 @@ const projects = [
     githubLink: "https://github.com/Chandan8757/College-conference-website",
     liveDemo: "https://chandankumar-ecommerce.netlify.app",
   },
+
+  {
+    title: "Razorpay Payment Integration",
+    description:
+      "Implemented a secure and responsive online payment system using Razorpay with React and Tailwind CSS.",
+    detailedDescription:
+      "This project focuses on integrating the Razorpay payment gateway into a modern React application with Tailwind CSS for styling. It enables users to make secure online payments with features such as dynamic order creation, real-time payment status handling, and responsive UI design. The application ensures smooth checkout flow, client-side validation, and seamless user experience across all devices.",
+    category: "software",
+    tags: [
+      "React Js",
+      "Tailwind CSS",
+      "Razorpay API",
+      "JavaScript",
+      "REST API",
+    ],
+    image: "https://razorpay.com/docs/build/browser/assets/images/pos.jpg",
+    githubLink: "https://github.com/Chandan8757/Razorpay-clone-tailwind",
+    liveDemo: "https://razorpay-clone-tailwind-one.vercel.app/",
+  },
+
   {
     title: "Ticket Booking Application",
     description:
