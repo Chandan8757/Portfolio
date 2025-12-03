@@ -75,7 +75,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     githubLink: "https://github.com/Chandan8757/Portfolio",
-    liveDemo: "https://portfolio-phi-amber-34.vercel.app/",
+    liveDemo: "https://portfolio-iota-mauve-rsnobsqfj9.vercel.app/",
   },
 
   {
