@@ -47,7 +47,22 @@ document.getElementById('resume-btn').addEventListener('click', function() {
 });
 
 // Projects Data
+
 const projects = [
+  {
+    title: "Car Rental Application",
+    description:
+      "Developed a full-stack car rental web application allowing users to browse, book, and manage car rentals online.",
+    detailedDescription:
+      "This MERN stack-based car rental application provides a complete rental management solution. Users can register and log in, browse available cars with filters, view detailed car information, select rental dates, and place bookings. The admin panel allows car management, booking management, and user tracking. The frontend is built with React and Tailwind CSS for a modern responsive UI, while the backend uses Node.js, Express.js, and MongoDB for secure data handling and scalable APIs.",
+    category: "software",
+    tags: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "CSS"],
+    image:
+      "https://d1ss4nmhr4m5he.cloudfront.net/wp-content/uploads/2024/03/04080107/5-Essential-Car-Rental-Tips-for-a-Smooth-Business-Travel-Experience-1024x544.jpg",
+    githubLink: "https://github.com/Chandan8757/CarRental-fullstack",
+    liveDemo: "https://car-rental-henna-sigma.vercel.app/",
+  },
+
   {
     title: "Portfolio",
     description:
@@ -73,8 +88,7 @@ const projects = [
     category: "software",
     tags: ["Mongo Db", "Express Js", "React Js", "Node Js"],
     image:
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-,
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     githubLink: "https://github.com/Chandan8757/College-conference-website",
     liveDemo: "https://chandankumar-ecommerce.netlify.app",
   },
